@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IA: Medo ou Fascínio?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>🤖 Inteligência Artificial</h1>
+    <h2>Medo ou Fascínio?</h2>
+    <p>Descubra como você se sente sobre a inteligência artificial!</p>
+
+    <div id="inicio">
+      <button onclick="iniciar()">Começar o quiz</button>
+    </div>
+
+    <div id="quiz" hidden>
+      <h3 id="pergunta"></h3>
+      <div id="opcoes"></div>
+    </div>
+
+    <div id="resultado" hidden>
+      <h3>Resultado</h3>
+      <p id="mensagem"></p>
+      <button onclick="iniciar()">Jogar novamente</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
